@@ -16,13 +16,32 @@
     />
   </head>
   <body>
+  <div class="outer-menu">
+  <input class="checkbox-toggle" type="checkbox" />
+  <div class="hamburger">
+    <div></div>
+  </div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="bedroom.html">BEDROOM</a></li>
+          <li><a href="living.html">LIVING ROOM</a></li>
+          <li><a href="kitchen.html">KITCHEN</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
     <div class="container">
       <section>
         <header>
           <h1>BEDROOM</h1>
         </header>
       </section>
-      <section>
+      <section id="beds">
         <br />
         <br />
         <h1>BEDS</h1>
@@ -144,7 +163,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="drawer">
         <br />
         <br />
         <h1>DRAWERS</h1>
@@ -276,14 +295,14 @@
           </li>
         </ul>
       </section>
-      <section >
+      <section id="mattress">
         <br />
         <br />
         <h1>MATTRESS</h1>
         <ul>
-          <li class="king">
-            SPRING MATTRESS
-            <div class="container page-wrapper">
+            <li class="king">
+              SPRING MATTRESS
+              <div class="container page-wrapper">
               <div class="page-inner">
                 <div class="row">
                   <div class="el-wrapper">
@@ -293,7 +312,7 @@
                         src="springmattress.webp"
                         alt=""
                         height="300px"
-                      />
+                        />
                       <div class="img-info">
                         <div class="info-inner">
                           <span class="p-name">SPRING MATTRESS</span>
@@ -310,7 +329,7 @@
                       <div class="h-bg">
                         <div class="h-bg-inner"></div>
                       </div>
-
+                      
                       <a class="cart" href="#">
                         <span class="price">Rs.19,000</span>
                         <span class="add-to-cart">
@@ -331,11 +350,11 @@
                   <div class="el-wrapper">
                     <div class="box-up">
                       <img
-                        class="img"
+                      class="img"
                         src="foammattress.webp"
                         alt=""
                         height="300px"
-                      />
+                        />
                       <div class="img-info">
                         <div class="info-inner">
                           <span class="p-name">FOAM MATTRESS</span>
@@ -347,12 +366,12 @@
                         </div>
                       </div>
                     </div>
-
+                    
                     <div class="box-down">
                       <div class="h-bg">
                         <div class="h-bg-inner"></div>
                       </div>
-
+                      
                       <a class="cart" href="#">
                         <span class="price">Rs.12,200</span>
                         <span class="add-to-cart">
@@ -373,12 +392,12 @@
                   <div class="el-wrapper">
                     <div class="box-up">
                       <img
-                        class="img"
+                      class="img"
                         src="childmattress.webp"
                         alt=""
                         height="300px"
-                      />
-                      <div class="img-info">
+                        />
+                        <div class="img-info">
                         <div class="info-inner">
                           <span class="p-name">CHILDREN MATTRESS</span>
                           <span class="p-company">CodeDogs</span>
@@ -393,7 +412,7 @@
                       <div class="h-bg">
                         <div class="h-bg-inner"></div>
                       </div>
-
+                      
                       <a class="cart" href="#">
                         <span class="price">Rs.4,000</span>
                         <span class="add-to-cart">
@@ -406,9 +425,11 @@
               </div>
             </div>
           </li>
+        
         </ul>
       </section>
-      </section>
+    </section>
     </div>
+    
   </body>
 </html>
